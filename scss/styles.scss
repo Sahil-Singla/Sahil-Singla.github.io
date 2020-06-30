@@ -726,12 +726,64 @@ footer {
         font-size: 1.2em;
     }
 }
-
 /*
     -------------------------------
-    ----- 10. Contact Styles -----
+    ----- 10. Hackathons styles-----
     -------------------------------
 */
+#hackathon {
+    padding: 50px 15px 20px 15px;
+    border-bottom: 1px solid $border;
+    text-align: center;
+
+    h2 {
+        color: $heading;
+        margin-bottom: 50px;
+    }
+}
+
+.hackathon-block {
+    max-width: 700px;
+    margin: 0 auto 30px auto;
+    padding: 15px;
+    border: 1px solid $border;
+    text-align: left;
+    background: $base-color;
+    h3 {
+        font-weight: 500;
+        float: left;
+        margin: 0;
+        color:  #fff;
+    }
+
+    span {
+        color: #fff;
+        float: right;
+    }
+
+    h4 {
+        color:  #fff;
+        clear: both;
+        font-weight: 500;
+        margin: 0 0 15px 0;
+    }
+
+    p, ul {
+        margin: 0;
+        color:  #fff;
+        font-size: 1.0em;
+    }
+
+    ul {
+        padding: 0 0 0 0px;
+    }
+}
+/*
+    -------------------------------
+    ----- 11. Contact Styles -----
+    -------------------------------
+*/
+
 
 #contact {
     padding: 50px 15px;
