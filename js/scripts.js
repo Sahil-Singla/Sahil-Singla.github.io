@@ -11,6 +11,24 @@
 */
 
 (function($) {
+       
+    var idx = 0;
+    function changeRecommendation() {
+        $(document.getElementById('recomimg')).fadeOut('slow', function() {
+            idx = (idx+1)%images.length;
+            document.getElementById('recomimg').src = images[idx%images.length];
+            $(document.getElementById('recomimg')).fadeIn('slow');
+        });
+    }
+    var images = 
+    [
+        "images/trump.png",
+        "images/elon.png",
+        "images/albert.png"
+    ];
+    window.setInterval(function(){
+        changeRecommendation();
+        },5000);
 
     // Remove no-js class
     $('html').removeClass('no-js');
