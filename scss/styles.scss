@@ -932,6 +932,51 @@ footer {
     -----------------------------
 */
 
+//Recommendations style
+#recommendation {
+    position: relative;
+    height: 10vh;
+    min-height: 200px;
+    max-height: 2500px;
+    background: $base-color;
+    background-size: cover;
+    padding: 15px;
+    overflow: hidden;
+}
+
+.recommendation-content {
+    position: relative;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    color:#fff;
+
+    h1 {
+        color: #fff;
+        font-size: 1.2em;
+        font-weight: 900;
+        letter-spacing: 0.05em;
+        line-height: 0.9em;
+        text-transform: uppercase;
+        text-align:left;
+    }
+    h2 {
+        display: inline;
+        color: #fff;
+        font-size: 0.8em;
+        font-weight: 400;
+        letter-spacing: 0.05em;
+        line-height: 0.9em;
+        text-align:left;
+    }
+}
+.recommendation-image {
+        float: right;
+        top:0%;
+    }
+
+
 // Collapse timeline
 @media only screen and (max-width: 750px) {
 
@@ -957,6 +1002,10 @@ footer {
 
     .vtimeline-content {
         margin-left: 70px;
+    }
+
+    .recommendation-image{
+        width:400px;
     }
 
 }
@@ -992,6 +1041,9 @@ footer {
         p {
             text-align: left;
         }
+    }
+    .recommendation-image{
+        width:400px;
     }
 
 }
@@ -1068,6 +1120,9 @@ footer {
     .social {
         text-align: center;
     }
+    .recommendation-image{
+        width:400px;
+    }
 
 }
 
@@ -1088,52 +1143,12 @@ footer {
             padding: 5px 10px;
         }
     }
+    .recommendation-image{
+        width:400px;
+    }
 
 }
 
-//Recommendations style
-#recommendation {
-    position: relative;
-    height: 10vh;
-    min-height: 200px;
-    max-height: 2500px;
-    background: $base-color;
-    background-size: cover;
-    padding: 15px;
-    overflow: hidden;
-}
-
-.recommendation-content {
-    position: relative;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: left;
-    color:#fff;
-
-    h1 {
-        color: #fff;
-        font-size: 1.2em;
-        font-weight: 900;
-        letter-spacing: 0.05em;
-        line-height: 0.9em;
-        text-transform: uppercase;
-        text-align:left;
-    }
-    h2 {
-        display: inline;
-        color: #fff;
-        font-size: 0.8em;
-        font-weight: 400;
-        letter-spacing: 0.05em;
-        line-height: 0.9em;
-        text-align:left;
-    }
-}
-.recommendation-image {
-        float: right;
-        top:0%;
-    }
 
 @keyframes pulsate {
     0% {
