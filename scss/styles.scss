@@ -945,10 +945,10 @@ footer {
 }
 
 .recommendation-content {
-    position: relative;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+     position: relative;
+     top: 30%;
+     left: 15%;
+    // transform: translate(-100%, -50%);
     text-align: left;
     color:#fff;
 
@@ -960,7 +960,7 @@ footer {
         line-height: 0.9em;
         text-transform: uppercase;
         text-align:left;
-        display: inline;
+        float: left;
     }
 }
 .recommendation-image {
