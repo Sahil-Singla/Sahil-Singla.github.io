@@ -974,6 +974,7 @@ footer {
 .recommendation-image {
         float: right;
         top:0%;
+        max-width: 70%;
     }
 
 
@@ -1144,7 +1145,7 @@ footer {
         }
     }
     .recommendation-image{
-        width:400px;
+        max-width:70%;
     }
 
 }
