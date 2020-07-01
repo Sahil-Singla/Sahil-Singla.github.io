@@ -960,15 +960,7 @@ footer {
         line-height: 0.9em;
         text-transform: uppercase;
         text-align:left;
-    }
-    h2 {
         display: inline;
-        color: #fff;
-        font-size: 0.8em;
-        font-weight: 400;
-        letter-spacing: 0.05em;
-        line-height: 0.9em;
-        text-align:left;
     }
 }
 .recommendation-image {
@@ -1040,7 +1032,11 @@ footer {
             text-align: left;
         }
     }
-
+    .recommendation-content{
+        h1{
+            font-size: 0.5em;
+        }
+    }
 }
 
 // Small Devices
@@ -1115,6 +1111,11 @@ footer {
     .social {
         text-align: center;
     }
+    .recommendation-content{
+        h1{
+            font-size: 0.5em;
+        }
+    }
 }
 
 // Extra Small Devices
@@ -1132,6 +1133,11 @@ footer {
         a {
             font-size: 0.9em;
             padding: 5px 10px;
+        }
+    }
+    .recommendation-content{
+        h1{
+            font-size: 0.5em;
         }
     }
 }
