@@ -936,8 +936,8 @@ footer {
 #recommendation {
     position: relative;
     height: 10vh;
-    min-height: 200px;
-    max-height: 2500px;
+    min-height: 220px;
+    max-height: 3000px;
     background: $base-color;
     background-size: cover;
     padding: 15px;
@@ -945,10 +945,10 @@ footer {
 }
 
 .recommendation-content {
-     position: relative;
-     top: 30%;
-     left: 15%;
-    // transform: translate(-100%, -50%);
+    //  position: relative;
+    //  top: 30%;
+    // left: 50%;
+    // transform: translate(-75%, -50%);
     text-align: left;
     color:#fff;
 
@@ -959,13 +959,13 @@ footer {
         letter-spacing: 0.05em;
         line-height: 0.9em;
         text-transform: uppercase;
-        text-align:left;
-        float: left;
+        text-align:center;
+        float: center;
     }
 }
 .recommendation-image {
-        float: right;
-        top:0%;
+        position: relative;
+        float: center;
         max-width: 70%;
     }
 
@@ -1000,6 +1000,7 @@ footer {
     .recommendation-content{
         h1{
             font-size: 0.7em;
+            text-align: center;
         }
     }
 }
@@ -1039,6 +1040,7 @@ footer {
     .recommendation-content{
         h1{
             font-size: 0.7em;
+            text-align: center;
         }
     }
 }
@@ -1118,6 +1120,7 @@ footer {
     .recommendation-content{
         h1{
             font-size: 0.7em;
+            text-align: center;
         }
     }
 }
@@ -1142,6 +1145,7 @@ footer {
     .recommendation-content{
         h1{
             font-size: 0.7em;
+            text-align: center;
         }
     }
 }
